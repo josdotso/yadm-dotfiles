@@ -26,7 +26,7 @@ yadm commit -m "The description of changes"
 yadm push
 ```
 
-## Customizing the your setup
+## Customizing your setup
 
 If the user has installed [Keybase](https://keybase.io/), and has created the
 file `/keybase/private/<user-keybase-id>/.bash_profile_private`, the deployed
