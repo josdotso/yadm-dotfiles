@@ -116,8 +116,12 @@ fi
 
 #####################################################################
 # Enable kubectl completion
-source <(kubectl completion bash)
+if command -v kubectl > /dev/null; then
+    source <(kubectl completion bash)
+fi
 
 #####################################################################
 # Enable kops completion
-source <(kops completion bash)
+if command -v kops > /dev/null; then
+    source <(kops completion bash)
+fi
